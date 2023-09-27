@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function Projects() {
     return (
         <>
-            <Container id="projects" className="mt-5">
+            <Container id="projects" className="my-5">
                 <Row>
                     <Col>
                         <h2 className="sm my-5 d-md-none">My Projects</h2>

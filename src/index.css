@@ -5,8 +5,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    margin: 0 auto;
-    padding: 2rem;
+    /* margin: 0 auto;
+    padding: 2rem; */
     background-color: black;
     color: white;
 }

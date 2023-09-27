@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function About() {
     return (
         <>
-            <Container id="about" className="justify-content-center mt-5">
+            <Container id="about" className="justify-content-center my-5">
                 <Row>
                     <Col xs={12} md={6} className="">
                         <h2 className="sm my-5 d-md-none">Who is Luigi?</h2>
@@ -21,7 +21,7 @@ function About() {
 
                         <img className="mb-4 d-none d-md-block d-lg-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={385} />
 
-                        <img className="mb-4 d-none d-lg-block" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={600} />
+                        <img className="mt-5 mb-4 d-none d-lg-block" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={600} />
 
                         <img className="my-4 d-md-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={350} />
 

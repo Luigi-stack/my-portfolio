@@ -5,13 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 function NavBar() {
   return (
     <>
-      <Navbar bg="white" data-bs-theme="light">
-        <Container className='justify-content-around'>
+      <Navbar bg="white" data-bs-theme="light" className='mb-5'>
+        <Container>
           {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
-          <Nav className="">
-            <Nav.Link href="#home" className='me-5'>Home</Nav.Link>
-            <Nav.Link href="#abaut" className='me-5'>About</Nav.Link>
-            <Nav.Link href="#gallery" className='me-5'>Gallery</Nav.Link>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Container>

@@ -21,9 +21,6 @@ h1,h2 {
   font-size: 57px;
 }
 
-/* h2 {
-  font-size: 90px;
-} */
 
 /* #home, #about, #projects {
   height: 100vh;
@@ -43,3 +40,6 @@ hr {
 }
 
 
+#home {
+  height: 100vh;
+}
