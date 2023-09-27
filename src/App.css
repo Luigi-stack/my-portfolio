@@ -5,13 +5,25 @@ h1,h2 {
   font-weight: 300;
 }
 
-h1 {
+.xl {
   font-size: 100px;
 }
 
-h2 {
-  font-size: 90px;
+.lg {
+  font-size: 70px;
 }
+
+.md {
+  font-size: 62px;
+}
+
+.sm {
+  font-size: 57px;
+}
+
+/* h2 {
+  font-size: 90px;
+} */
 
 /* #home, #about, #projects {
   height: 100vh;
