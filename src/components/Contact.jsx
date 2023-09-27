@@ -30,17 +30,17 @@ function Contact() {
                 </Row>
 
                 <Row className="mb-5">
-                    <Col className="d-flex flex-column align-items-center">
+                    <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Address</h3>
                         <p className="text-secondary fs-5">Rue FN 21, Dakar - Senegal</p>
                     </Col>
 
-                    <Col className="d-flex flex-column align-items-center">
+                    <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Email</h3>
                         <p><a href="mailto: luigi_iossa@hotmail.com" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0">luigi_iossa@hotmail.com</a></p>
                     </Col>
 
-                    <Col className="d-flex flex-column align-items-center">
+                    <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Phone</h3>
                         <p className="text-secondary fs-5">+39 3801520069</p>
                     </Col>
