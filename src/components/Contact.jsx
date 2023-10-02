@@ -6,7 +6,7 @@ function Contact() {
             <Container id="contact" className="mb-5">
                 <Row>
                     <Col>
-                        <h2 className="sm my-5 d-md-none">Reach Out
+                        <h2 className="sm mb-5 d-md-none">Reach Out
                             <br />
                             to Me
                         </h2>

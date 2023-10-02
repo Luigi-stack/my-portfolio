@@ -21,10 +21,10 @@ h1,h2 {
   font-size: 57px;
 }
 
+.xl, .lg, .md, .sm, .img-xl, .img-sm {
+  margin-top: 85px;
+}
 
-/* #home, #about, #projects {
-  height: 100vh;
-} */
 
 .p_about {
   margin: 100px 0 50px 0;
@@ -42,3 +42,4 @@ hr {
 #contact {
   margin-top: 8.5rem;
 }
+

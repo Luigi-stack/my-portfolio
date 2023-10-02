@@ -4,16 +4,16 @@ import { Container, Row, Col } from "react-bootstrap";
 function Projects() {
     return (
         <>
-            <Container id="projects" className="my-5">
+            <Container id="projects" className="">
                 <Row>
                     <Col>
-                        <h2 className="sm my-5 d-md-none">My Projects</h2>
+                        <h2 className="sm d-md-none">My Projects</h2>
 
-                        <h2 className="md my-5 d-none d-md-block d-lg-none">My Projects</h2>
+                        <h2 className="md d-none d-md-block d-lg-none">My Projects</h2>
 
-                        <h2 className="lg my-5 d-none d-lg-block d-xl-none">My Projects</h2>
+                        <h2 className="lg d-none d-lg-block d-xl-none">My Projects</h2>
 
-                        <h2 className="xl my-5 d-none d-xl-block">My Projects</h2>
+                        <h2 className="xl d-none d-xl-block">My Projects</h2>
                     </Col>
                 </Row>
 

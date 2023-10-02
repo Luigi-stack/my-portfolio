@@ -3,16 +3,16 @@ import { Container, Row, Col } from "react-bootstrap";
 function About() {
     return (
         <>
-            <Container id="about" className="justify-content-center my-5">
+            <Container id="about" className="justify-content-center">
                 <Row>
                     <Col xs={12} md={6} className="">
-                        <h2 className="sm my-5 d-md-none">Who is Luigi?</h2>
+                        <h2 className="sm d-md-none">Who is Luigi?</h2>
 
-                        <h2 className="md my-5 d-none d-md-block d-lg-none">Who is Luigi?</h2>
+                        <h2 className="md d-none d-md-block d-lg-none">Who is Luigi?</h2>
 
-                        <h2 className="lg my-5 d-none d-lg-block d-xl-none">Who is Luigi?</h2>
+                        <h2 className="lg d-none d-lg-block d-xl-none">Who is Luigi?</h2>
 
-                        <h2 className="xl my-5 d-none d-xl-block">Who is Luigi?</h2>
+                        <h2 className="xl d-none d-xl-block">Who is Luigi?</h2>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
                         <p className="p_about">I'm a Jr. Web Developer. Strong creative and analytical skills. Team player with an eye for detail. After working in the field of international cooperation for a few years I became interested in software development and decided to join the full stack development bootcamp at Epicode School.</p>
                         <hr className="border border-white opacity-100 border-1" />
@@ -21,7 +21,7 @@ function About() {
 
                         <img className="mb-4 d-none d-md-block d-lg-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={385} />
 
-                        <img className="mt-5 mb-4 d-none d-lg-block" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={600} />
+                        <img className="img-xl mb-4 d-none d-lg-block" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={600} />
 
                         <img className="my-4 d-md-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={350} />
 

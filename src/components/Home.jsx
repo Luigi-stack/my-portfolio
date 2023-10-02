@@ -5,7 +5,7 @@ function HomePage() {
 
     return (
         <>
-            <Container id="home" className="my-5 justify-content-center">
+            <Container id="home" className="justify-content-center">
                 <Row>
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
 
@@ -36,8 +36,8 @@ function HomePage() {
 
                         <img className="mb-4 d-none d-md-block d-lg-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={385} />
 
-                        <img className="mb-4 d-none d-lg-block" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={600} />
-                        
+                        <img className="img-xl mb-4 d-none d-lg-block" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={600} />
+
                         <img className="my-4 d-md-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={350} />
 
                         <p>
