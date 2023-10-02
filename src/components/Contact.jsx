@@ -49,7 +49,7 @@ function Contact() {
                     <Col className="d-flex justify-content-end my-5">
                         <p>
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
-                            <a href="https://api.whatsapp.com/send/?phone=393801520069&text&type=phone_number&app_absent=0" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Let's talk to me</i></a>
+                            <a href="https://api.whatsapp.com/send/?phone=393801520069&text&type=phone_number&app_absent=0" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-whatsapp text-white fs-5"> Chat on WhatsApp</i></a>
                         </p>
                     </Col>
                 </Row>
