@@ -41,7 +41,7 @@ function HomePage() {
                         <img className="my-4 d-md-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={350} />
 
                         <p>
-                            <a href="#contact" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Work with me today</i></a>
+                            <a href="#contact" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Start to work with me</i></a>
                         </p>
                     </Col>
                 </Row>
