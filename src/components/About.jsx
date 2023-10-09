@@ -1,4 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { FaHtml5, FaCss3Alt, FaBootstrap, FaReact, FaJava, FaTrello, FaGithub } from 'react-icons/fa';
+import { IoLogoJavascript } from "react-icons/io5";
+import { TbBrandVscode } from "react-icons/tb";
+import { SiSpring, SiPostman } from "react-icons/si";
+import { BiLogoPostgresql } from "react-icons/bi";
+
+
 
 function About() {
     return (
@@ -14,9 +21,22 @@ function About() {
 
                         <h2 className="xl d-none d-xl-block">Who is Luigi?</h2>
                         {/* eslint-disable-next-line react/no-unescaped-entities */}
-                        <p className="p_about">I'm a Jr. Web Developer. Strong creative and analytical skills. Team player with an eye for detail. After working in the field of international cooperation for a few years I became interested in software development and decided to join the full stack development bootcamp at Epicode School.</p>
+                        <p className="p_about">I am a junior full stack developer with a unique professional background. After working for three years in international cooperation in Senegal, I made the exciting transition to become a full stack developer through a bootcamp at Epicode School (Rome). Today, I combine skills from both worlds; offering fresh and flexible solutions for your projects.</p>
                         <hr className="border border-white opacity-100 border-1" />
+                        <Container className="d-flex flex-column">
+                            <h2 className="professiona_skills">Professional Skills</h2>
+                            <p className="react-icons">
+                                <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaReact /> <FaBootstrap /> <TbBrandVscode /> <BiLogoPostgresql /> <SiPostman /> <FaGithub /> <FaTrello /> <FaJava /> <SiSpring />
+                            </p>
+                            <p className="react-icons">
+                            
+                            </p>
+                        </Container>
+
+
+
                     </Col>
+
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
 
                         <img className="mb-4 d-none d-md-block d-lg-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={385} />

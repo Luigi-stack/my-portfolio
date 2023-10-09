@@ -1,5 +1,13 @@
 import { Container, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
+function scrollToSection(event, sectionId) {
+    event.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+}
 
 function HomePage() {
 
@@ -29,7 +37,7 @@ function HomePage() {
                             My Portoflio
                         </h1>
 
-                        <a href="#about" className="btn btn-outline-light mt-4 p-3 px-4 rounded-pill">Luigi Iossa / Web Developer</a>
+                        <Link to="/#about" className="btn btn-outline-light mt-4 p-3 px-4 rounded-pill" onClick={(event) => scrollToSection(event, 'about')}>Luigi Iossa / Web Developer</Link>
                     </Col>
 
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
@@ -41,7 +49,7 @@ function HomePage() {
                         <img className="my-4 d-md-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={350} />
 
                         <p>
-                            <a href="#contact" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Start to work with me</i></a>
+                            <Link to="/#contact" className="link-offset-2 link-underline link-underline-opacity-0" onClick={(event) => scrollToSection(event, 'contact')}><i className="bi bi-arrow-return-right text-white fs-5"> Start to work with me</i></Link>
                         </p>
                     </Col>
                 </Row>

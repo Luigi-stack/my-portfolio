@@ -42,7 +42,8 @@ function Contact() {
 
                     <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Phone</h3>
-                        <p className="text-secondary fs-5">+39 3801520069</p>
+                        <p className="text-secondary fs-5">IT +39 3801520069 <br />
+                        SN +221 778756960</p>
                     </Col>
                 </Row>
                 <Row>
