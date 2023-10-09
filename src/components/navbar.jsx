@@ -13,7 +13,7 @@ function scrollToSection(event, sectionId) {
 function NavBar() {
   return (
     <>
-      <Navbar bg="white" data-bs-theme="light" className='fixed-top'>
+      <Navbar bg="black" data-bs-theme="dark" className='fixed-top'>
         <Container>
           {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
           <Nav className="me-auto">
