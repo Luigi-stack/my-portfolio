@@ -42,7 +42,7 @@ function HomePage() {
 
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
 
-                        <img className="mb-4 d-none d-md-block d-lg-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={385} />
+                        <img className="img-md mb-4 d-none d-md-block d-lg-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={385} />
 
                         <img className="img-xl mb-4 d-none d-lg-block" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={600} />
 
