@@ -10,7 +10,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 function About() {
     return (
         <>
-            <Container id="about" className="justify-content-center">
+            <Container id="about" className="justify-content-center section-animation">
                 <Row>
                     <Col xs={12} md={6} className="">
                         <h2 className="sm d-md-none">Who is Luigi?</h2>

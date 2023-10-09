@@ -13,7 +13,7 @@ function HomePage() {
 
     return (
         <>
-            <Container id="home" className="justify-content-center">
+            <Container id="home" className="justify-content-center section-animation">
                 <Row>
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
 

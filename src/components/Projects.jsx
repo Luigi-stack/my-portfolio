@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function Projects() {
     return (
         <>
-            <Container id="projects" className="">
+            <Container id="projects" className="section-animation">
                 <Row>
                     <Col>
                         <h2 className="sm d-md-none">My Projects</h2>

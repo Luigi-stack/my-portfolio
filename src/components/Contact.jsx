@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function Contact() {
     return (
         <>
-            <Container id="contact" className="mb-5">
+            <Container id="contact" className="mb-5 section-animation">
                 <Row>
                     <Col>
                         <h2 className="sm mb-5 d-md-none">Reach Out
