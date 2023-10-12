@@ -42,11 +42,11 @@ function HomePage() {
 
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
 
-                        <img className="img-md mb-4 d-none d-md-block d-lg-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={385} />
+                        <img className="img-md mb-4 d-none d-md-block d-lg-none" src="src/assets/photoprofile.png" alt="photo profile" width={385} />
 
-                        <img className="img-xl mb-4 d-none d-lg-block" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={600} />
+                        <img className="img-xl mb-4 d-none d-lg-block" src="src/assets/photoprofile.png" alt="photo profile" width={600} />
 
-                        <img className="my-4 d-md-none" src="https://github.com/Luigi-stack/Portfolio/blob/main/src/assets/photoprofile.png?raw=true" alt="photo profile" width={350} />
+                        <img className="my-4 d-md-none" src="src/assets/photoprofile.png" alt="photo profile" width={350} />
 
                         <p>
                             <Link to="/#contact" className="link-offset-2 link-underline link-underline-opacity-0" onClick={(event) => scrollToSection(event, 'contact')}><i className="bi bi-arrow-return-right text-white fs-5"> Start to work with me</i></Link>
