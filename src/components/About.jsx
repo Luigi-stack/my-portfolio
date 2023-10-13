@@ -8,6 +8,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 
 
 function About() {
+
     return (
         <>
             <Container id="about" className="justify-content-center section-animation">

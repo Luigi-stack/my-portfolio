@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
               <About />
               <Projects />
               <Contact />
+              <Footer />
             </>} />
           <Route path="/*" element={<NotFound />} />
         </Routes>

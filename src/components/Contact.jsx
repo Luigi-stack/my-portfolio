@@ -1,9 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Contact() {
     return (
         <>
-            <Container id="contact" className="mb-5 section-animation">
+            <Container id="contact" className="section-animation">
                 <Row>
                     <Col>
                         <h2 className="sm mb-5 d-md-none">Reach Out
@@ -32,18 +33,18 @@ function Contact() {
                 <Row className="mb-5">
                     <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Address</h3>
-                        <p className="text-secondary fs-5">Rue FN 21, Dakar - Senegal</p>
+                        <Link to="https://maps.app.goo.gl/npknn2kozwny5i4s9" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0" target="_blank" rel="noopener noreferrer">Rue FN 21, Dakar - Senegal</Link>
                     </Col>
 
                     <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Email</h3>
-                        <p><a href="mailto: luigi_iossa@hotmail.com" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0">luigi_iossa@hotmail.com</a></p>
+                        <Link to="mailto: luigi_iossa@hotmail.com" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0">luigi_iossa@hotmail.com</Link>
                     </Col>
 
                     <Col sm={12} md={4} className="d-flex flex-column align-items-center">
                         <h3>Phone</h3>
-                        <p className="text-secondary fs-5">IT +39 3801520069 <br />
-                        SN +221 778756960</p>
+                        <Link to="tel:+393801520069" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0">IT +39 3801520069</Link>
+                        <Link to="tel:+221778756960" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0">SN +221 778756960</Link>
                     </Col>
                 </Row>
                 <Row>
