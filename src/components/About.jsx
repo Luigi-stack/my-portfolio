@@ -4,16 +4,21 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandVscode } from "react-icons/tb";
 import { SiSpring, SiPostman } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-
+import AOS from 'aos';
 
 
 function About() {
 
+    AOS.init();
+
+
     return (
         <>
-            <Container id="about" className="justify-content-center section-animation">
+            <Container id="about" className="justify-content-center">
                 <Row>
-                    <Col xs={12} md={6} className="">
+                    <Col xs={12} md={6} className="" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <h2 className="sm d-md-none">Who is Luigi?</h2>
 
                         <h2 className="md d-none d-md-block d-lg-none">Who is Luigi?</h2>
@@ -30,7 +35,7 @@ function About() {
                                 <FaHtml5 /> <FaCss3Alt /> <IoLogoJavascript /> <FaReact /> <FaBootstrap /> <TbBrandVscode /> <BiLogoPostgresql /> <SiPostman /> <FaGithub /> <FaTrello /> <FaJava /> <SiSpring />
                             </p>
                             <p className="react-icons">
-                            
+
                             </p>
                         </Container>
 
@@ -38,7 +43,9 @@ function About() {
 
                     </Col>
 
-                    <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center">
+                    <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
 
                         <img className="mb-4 d-none d-md-block d-lg-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={385} />
 
@@ -52,6 +59,8 @@ function About() {
                     </Col>
                 </Row>
             </Container>
+
+
         </>
     )
 }

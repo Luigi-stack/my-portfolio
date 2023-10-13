@@ -1,10 +1,15 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+
 
 function Contact() {
+
+    AOS.init();
+
     return (
         <>
-            <Container id="contact" className="section-animation">
+            <Container id="contact" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
                 <Row>
                     <Col>
                         <h2 className="sm mb-5 d-md-none">Reach Out

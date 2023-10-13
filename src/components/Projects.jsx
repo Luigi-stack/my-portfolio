@@ -1,12 +1,17 @@
 import { Container, Row, Col } from "react-bootstrap";
+import AOS from 'aos';
+
 
 
 function Projects() {
+
+    AOS.init();
+
     return (
         <>
-            <Container id="projects" className="section-animation">
+            <Container id="projects">
                 <Row>
-                    <Col>
+                    <Col data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <h2 className="sm d-md-none">My Projects</h2>
 
                         <h2 className="md d-none d-md-block d-lg-none">My Projects</h2>
@@ -17,7 +22,7 @@ function Projects() {
                     </Col>
                 </Row>
 
-                <Container>
+                <Container data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500" data-aos-offset="200">
 
 
                     <Row>
