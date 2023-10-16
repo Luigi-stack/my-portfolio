@@ -4,6 +4,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { TbBrandVscode } from "react-icons/tb";
 import { SiSpring, SiPostman } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { Link } from "react-router-dom";
 import AOS from 'aos';
 
 
@@ -39,8 +40,6 @@ function About() {
                             </p>
                         </Container>
 
-
-
                     </Col>
 
                     <Col xs={12} md={6} className="d-flex flex-column justify-content-center align-items-center" data-aos="fade-down"
@@ -54,7 +53,7 @@ function About() {
                         <img className="my-4 d-md-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={350} />
 
                         <p className="ms-5">
-                            <a href="" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Download my Curriculum</i></a>
+                        <Link to="src/assets/Luigi_Iossa_CV.pdf" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0" target="_blank" rel="noopener noreferrer"><i className="bi bi-arrow-return-right text-white fs-5"> Download my Curriculum</i></Link>
                         </p>
                     </Col>
                 </Row>
