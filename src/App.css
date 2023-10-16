@@ -62,3 +62,7 @@ hr {
 .pageNot {
   font-size: 150px;
 }
+
+.icon_footer:hover {
+  color: white !important;
+}
