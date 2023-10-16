@@ -46,11 +46,11 @@ function About() {
                         data-aos-easing="linear"
                         data-aos-duration="1500">
 
-                        <img className="mb-4 d-none d-md-block d-lg-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={385} />
+                        <img className="mb-4 d-none d-md-block d-lg-none" src="src/assets/coding.png" alt="photo profile" width={385} />
 
-                        <img className="img-xl mb-4 d-none d-lg-block" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={600} />
+                        <img className="img-xl mb-4 d-none d-lg-block" src="src/assets/coding.png" alt="photo profile" width={600} />
 
-                        <img className="my-4 d-md-none" src="https://raw.githubusercontent.com/Luigi-stack/Portfolio/main/src/assets/coding.png" alt="photo profile" width={350} />
+                        <img className="my-4 d-md-none" src="src/assets/coding.png" alt="photo profile" width={350} />
 
                         <p className="ms-5">
                         <Link to="src/assets/Luigi_Iossa_CV.pdf" className="text-secondary fs-5 link-offset-2 link-underline link-underline-opacity-0" target="_blank" rel="noopener noreferrer"><i className="bi bi-arrow-return-right text-white fs-5"> Download my Curriculum</i></Link>
