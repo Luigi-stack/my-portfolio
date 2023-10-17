@@ -33,7 +33,7 @@ h2 {
   margin-top: 70px;
 }
 
-.img-md{
+.img-md {
   margin-top: 55px;
 }
 
@@ -64,7 +64,7 @@ hr {
 }
 
 .img_projects {
-  border-radius: 50% 50% 0% 0% / 50% 50% 0% 0% ;
+  border-radius: 50% 50% 0% 0% / 50% 50% 0% 0%;
   object-fit: cover;
   object-position: left;
 }
@@ -74,5 +74,6 @@ hr {
 }
 
 .hoveproject:hover {
+
   filter: grayscale(0%);
 }
