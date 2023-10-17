@@ -14,7 +14,7 @@ h2 {
 }
 
 .md {
-  font-size: 62px;
+  font-size: 61px;
 }
 
 .sm {
@@ -42,16 +42,12 @@ h2 {
   font-size: 20px;
 }
 
-.p_projects {
-  font-size: 14px !important;
-}
-
 hr {
   margin-right: 150px;
 }
 
 #contact {
-  margin-top: 8.5rem;
+  margin-top: 2.5rem;
 }
 
 .react-icons,
@@ -65,4 +61,18 @@ hr {
 
 .icon_footer:hover {
   color: white !important;
+}
+
+.img_projects {
+  border-radius: 50% 50% 0% 0% / 50% 50% 0% 0% ;
+  object-fit: cover;
+  object-position: left;
+}
+
+.hoveproject {
+  filter: grayscale(100%);
+}
+
+.hoveproject:hover {
+  filter: grayscale(0%);
 }

@@ -53,7 +53,7 @@ function Contact() {
                     </Col>
                 </Row>
                 <Row>
-                    <Col className="d-flex justify-content-end my-5">
+                    <Col className="d-flex justify-content-end my-2">
                         <p>
                             {/* eslint-disable-next-line react/no-unescaped-entities */}
                             <a href="https://api.whatsapp.com/send/?phone=393801520069&text&type=phone_number&app_absent=0" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-whatsapp text-white fs-5"> Chat on WhatsApp</i></a>
