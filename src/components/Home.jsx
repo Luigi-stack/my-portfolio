@@ -25,22 +25,22 @@ function HomePage() {
 
                         <h1 className="sm d-md-none">Welcome to
                             <br />
-                            My Portoflio
+                            My Portfolio
                         </h1>
 
                         <h1 className="md d-none d-md-block d-lg-none">Welcome to
                             <br />
-                            My Portoflio
+                            My Portfolio
                         </h1>
 
                         <h1 className="lg d-none d-lg-block d-xl-none">Welcome to
                             <br />
-                            My Portoflio
+                            My Portfolio
                         </h1>
 
                         <h1 className="xl d-none d-xl-block">Welcome to
                             <br />
-                            My Portoflio
+                            My Portfolio
                         </h1>
 
                         <Link to="/#about" className="btn btn-outline-light mt-4 p-3 px-4 rounded-pill" onClick={(event) => scrollToSection(event, 'about')}>Luigi Iossa / Web Developer</Link>
