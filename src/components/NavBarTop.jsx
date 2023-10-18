@@ -10,7 +10,7 @@ function scrollToSection(event, sectionId) {
   }
 }
 
-function NavBar() {
+function NavBarTop() {
   return (
     <>
       <Navbar bg="black" data-bs-theme="dark" className='fixed-top'>
@@ -28,4 +28,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default NavBarTop;

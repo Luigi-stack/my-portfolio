@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
+import NavBarTop from './components/NavBarTop';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <Navbar />
+              <NavBarTop />
               <HomePage />
               <About />
               <Projects />
