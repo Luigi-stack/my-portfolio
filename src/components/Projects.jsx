@@ -1,5 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import ecommerceImg from '../assets/ecommerce.png'
+import linkedinCloneImg from '../assets/linkedin_clone.png'
+import netflixCloneImg from '../assets/netflix_clone.png'
+import spotifyCloneImg from '../assets/spotify_clone.png'
+import weatherAppImg from '../assets/weather_app.png'
 // import AOS from 'aos';
 
 
@@ -28,7 +33,7 @@ function Projects() {
                 <Container>
                     <Row>
                         <Col md={6} lg={4} className="d-flex flex-column align-items-center mb-5 hoveproject">
-                            <img src="src/assets/ecommerce.png" alt="ecommerce login image" className="img_projects mb-2" width={250} />
+                            <img src={ecommerceImg} alt="ecommerce login image" className="img_projects mb-2" width={250} />
                             <p>
                                 <Link to="https://github.com/Luigi-stack/capstone_project_frontend.git" target="_blank" rel="noopener noreferrer" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> E-commerce Project</i></Link>
                             </p>
@@ -36,28 +41,28 @@ function Projects() {
 
 
                         <Col md={6} lg={4} className="d-flex flex-column align-items-center mb-5 hoveproject">
-                            <img src="src/assets/linkedin_clone.png" alt="profile linkedin image" className="img_projects mb-2" width={250} />
+                            <img src={linkedinCloneImg} alt="profile linkedin image" className="img_projects mb-2" width={250} />
                             <p>
                                 <Link to="https://github.com/Luigi-stack/LinkedIn-Build-week3.git" target="_blank" rel="noopener noreferrer" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Linkedin Clone</i></Link>
                             </p>
                         </Col>
 
                         <Col md={6} lg={4} className="d-flex flex-column align-items-center mb-5 hoveproject">
-                            <img src="src/assets/spotify_clone.png" alt="home page spotify image" className="img_projects mb-2" width={250} />
+                            <img src={spotifyCloneImg} alt="home page spotify image" className="img_projects mb-2" width={250} />
                             <p>
                                 <Link to="https://github.com/Luigi-stack/projectw3-React-spotify.git" target="_blank" rel="noopener noreferrer" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Spotify Clone</i></Link>
                             </p>
                         </Col>
 
                         <Col md={6} lg={4} className="d-flex flex-column align-items-center mb-5 hoveproject">
-                            <img src="src/assets/netflix_clone.png" alt="home page netflix image" className="img_projects mb-2" width={250} />
+                            <img src={netflixCloneImg} alt="home page netflix image" className="img_projects mb-2" width={250} />
                             <p>
                                 <Link to="https://github.com/Luigi-stack/capstone_project_frontend.git" target="_blank" rel="noopener noreferrer" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Netflix Clone</i></Link>
                             </p>
                         </Col>
 
                         <Col md={6} lg={4} className="d-flex flex-column align-items-center hoveproject">
-                            <img src="src/assets/weather_app.png" alt="home page weather app image" className="img_projects mb-2" width={250} />
+                            <img src={weatherAppImg} alt="home page weather app image" className="img_projects mb-2" width={250} />
                             <p>
                                 <Link to="https://github.com/Luigi-stack/weather-app.git" target="_blank" rel="noopener noreferrer" className="link-offset-2 link-underline link-underline-opacity-0"><i className="bi bi-arrow-return-right text-white fs-5"> Weather App</i></Link>
                             </p>
