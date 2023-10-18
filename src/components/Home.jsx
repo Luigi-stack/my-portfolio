@@ -1,6 +1,7 @@
 import { Container, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import AOS from 'aos';
+import photoProfile from '../assets/photoprofile.png'
 
 function scrollToSection(event, sectionId) {
     event.preventDefault();
@@ -49,11 +50,11 @@ function HomePage() {
                         data-aos-easing="linear"
                         data-aos-duration="1500">
 
-                        <img className="img-md mb-4 d-none d-md-block d-lg-none" src="src/assets/photoprofile.png" alt="photo profile" width={385} />
+                        <img className="img-md mb-4 d-none d-md-block d-lg-none" src={photoProfile} alt="photo profile" width={385} />
 
-                        <img className="img-xl mb-4 d-none d-lg-block" src="src/assets/photoprofile.png" alt="photo profile" width={600} />
+                        <img className="img-xl mb-4 d-none d-lg-block" src={photoProfile} alt="photo profile" width={600} />
 
-                        <img className="my-4 d-md-none" src="src/assets/photoprofile.png" alt="photo profile" width={350} />
+                        <img className="my-4 d-md-none" src={photoProfile} alt="photo profile" width={350} />
 
                         <p>
                             <Link to="/#contact" className="link-offset-2 link-underline link-underline-opacity-0" onClick={(event) => scrollToSection(event, 'contact')}><i className="bi bi-arrow-return-right text-white fs-5"> Start to work with me</i></Link>
